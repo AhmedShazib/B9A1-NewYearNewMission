@@ -1,0 +1,35 @@
+.welcome {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 55px;
+
+}
+
+.welcome-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-img {
+    width: 60%;
+}
+
+.welcome-content-h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.welcome-content-h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.welcome-content-h1-cel {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -45px;
+}
