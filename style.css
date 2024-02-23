@@ -1,35 +1,44 @@
-.welcome {
-    position: relative;
+.header-container{
     text-align: center;
-    color: rgb(255, 255, 255);
-    margin-top: 55px;
-
+    position: relative;
+    margin-top: 40px;
 }
-
-.welcome-content {
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.welcome-image{
+    height: 400px;
+    width: 900px;
+    position: relative;
+}
+.welcome-image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(to bottom, black,transparent);
+    height: 100%;
+    width: 100%;
+}
+.welcome-content{
     position: absolute;
     top: 50%;
     left: 50%;
+    color: white;
     transform: translate(-50%, -50%);
 }
-
-.welcome-img {
-    width: 60%;
-}
-
-.welcome-content-h3 {
-    font-size: 25px;
+.welcome-content-h3{
     font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 11px;
+    margin-top: 15px;
 }
-
-.welcome-content-h1 {
-    font-size: 60px;
+.welcome-content-h1{
     font-weight: bold;
-    margin-top: -10px;
-}
-
-.welcome-content-h1-cel {
-    font-size: 60px;
-    font-weight: bold;
-    margin-top: -45px;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
