@@ -230,4 +230,76 @@ h4{
     color: red;
 }
 
-/* ----------------------------------------------------- */
+/* ------------------------function----------------------------- */
+
+
+.function-container{
+    width: 900px;
+    margin: 80px auto;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.function-container-text-h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.function-container-text-h4{
+    margin-bottom: 0;
+}
+.function-container-text-p{
+    margin-top: -28px;
+}
+.function-span{
+    color: red;
+    
+}
+
+
+
+.function-image1{
+    position: relative;
+}
+.fifty{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 138px;
+}
+.girl{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+.function-image2{
+    position: relative;
+}
+.function-reward{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    top: -201px;
+    left: 41px;
+}
+.function-footer-image{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+}
+.function-image-section{
+    position: relative;
+}
+.function-image1-container1{
+    position: absolute;
+    left: 460px;
+}
+.function-image1-container2{
+    position: absolute;
+    top: 390px;
+}
+
