@@ -235,6 +235,7 @@ h4{
 
 .function-container{
     width: 900px;
+    height: 600px;
     margin: 80px auto;
     text-align: center;
     box-sizing: border-box;
@@ -303,3 +304,23 @@ h4{
     top: 390px;
 }
 
+/* -----------------------------Showcase---------------------------------- */
+
+.showcase-container{
+    margin: 0 auto;
+    height: 600px;
+    width: 900px;
+}
+.showcase>h3{
+    color: red;
+}
+.showcase-image{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+
+.showcase-image-container1, .showcase-image-container2{
+    display: flex;
+    
+}
