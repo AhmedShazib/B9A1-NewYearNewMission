@@ -366,3 +366,80 @@ h4{
 .subscribe-container-registration{
     display: flex;
 }
+
+/* ----------------------------footer----------------------------- */
+
+.footer-container{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 317px;
+    margin-top: 60px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.contact{
+    margin-top: 16px;
+}
+.contact-call-image>img{
+    height: 15px;
+    width: 15px;
+}
+.contact-call-p>p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.contact-call-image{
+    margin-right: 16px;
+}
+
+.contact-website-image{
+    margin-right: 16px;
+}
+
+.contact-website-image>img{
+    height: 15px;
+    width: 15px;
+}
+.contact-website-p>p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.contact-call, .contact-website{
+    display: flex;
+    width: 183px;
+    
+}
+
+.hr{
+    border: 1px solid rgb(43, 43, 43);
+    width: 900px;
+}
+
+.social-container>button>img{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+.social-container>button>img:hover{
+    cursor: pointer;
+}
+.social-container>button{
+    background:none;
+    border: none;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+/* ------------------------END-------------------------------- */
