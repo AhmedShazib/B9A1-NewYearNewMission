@@ -308,8 +308,9 @@ h4{
 
 .showcase-container{
     margin: 0 auto;
-    height: 600px;
+    height: 750px;
     width: 900px;
+    margin-bottom: 100px
 }
 .showcase>h3{
     color: red;
@@ -323,4 +324,45 @@ h4{
 .showcase-image-container1, .showcase-image-container2{
     display: flex;
     
+}
+/* ------------------------------------------------------------- */
+.subscribe-container-details{
+    height: 400px;
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+    background-color: rgb(255, 236, 240);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 51px;
+}
+.subscribe-container-details>img{
+    height: 100px;
+    width: 100px;
+}
+.subscribe-container-registration{
+    position: absolute;
+    top: 229px;
+    left: 229px;
+    transform: translate(-2%, 86%);
+}
+.submit-email{
+    padding: 15px;
+    border-radius: 30px 0 0 30px;
+    width: 300px;
+    border: none;
+
+    
+}
+.submit-registration{
+    padding: 15px;
+    border-radius: 0px 30px 30px 0px;
+    background-color: red;
+    color: white;
+    width: 130px;
+    border: none;
+}
+.subscribe-container-registration{
+    display: flex;
 }
